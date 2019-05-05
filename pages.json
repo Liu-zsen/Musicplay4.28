@@ -1,0 +1,91 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "音乐App",
+				"titleNView":{
+					"buttons":[
+						{
+							"type":"menu",
+							"float":"left"
+						},
+						{
+							"type":"none",
+							"text":"\ue466",
+							"fontSrc":"/static/uni.ttf"
+						}
+					],
+					"backgroundColor":"#fff"
+				}
+			}
+		},
+		{
+			"path":"pages/search/search",
+			"style": {
+				"titleNView": {
+					"searchInput": {
+						"placeholder": "大家都在搜",
+						"align": "left",
+						"autoFocus": true
+					}
+				}
+			}
+		},
+		{
+			"path":"pages/search/searchResult",
+			"style":{
+				"navigationBarTitleText": "搜索-音乐App"
+			}
+		},
+		{
+			"path":"pages/musicPage/musicPage"
+		},
+		{
+			"path":"pages/history/history",
+			"navigationBarTitleText": "历史记录"
+		},
+		{
+			"path":"pages/download/download",
+			"style":{
+				"navigationBarTitleText": "下载管理"
+			}
+		},
+		{
+			"path":"pages/playerdetail/playerdetail",
+			"style":{
+				"navigationBarTitleText": "歌单"
+			}
+		},
+		{
+			"path":"pages/personalized/personalized",
+			"style":{
+				"navigationBarTitleText": "每日推荐"
+			}
+		},
+		{
+			"path":"pages/ranking/ranking",
+			"style":{
+				"navigationBarTitleText": "排行榜"
+			}
+		},
+		{
+			"path":"pages/ranking/rankingPage",
+			"style":{
+				"navigationBarTitleText": "排行榜"
+			}
+		},
+		{
+			"path":"pages/login/login",
+			"style":{
+				"navigationBarTitleText": "登录"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
